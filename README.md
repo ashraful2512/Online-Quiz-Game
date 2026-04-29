@@ -2,7 +2,13 @@
 
 A full-stack real-time multiplayer quiz battle game built with **Socket.io**, **Node.js**, and **React**.
 
----
+##  Live Demo
+
+**Play Now:** [https://ashraful2512.github.io/Online-Quiz-Game/](https://ashraful2512.github.io/Online-Quiz-Game/)
+
+**Backend API:** [https://online-quiz-game-uttq.onrender.com](https://online-quiz-game-uttq.onrender.com)
+
+> **Quick Start:** Open the live demo in multiple browser tabs to test multiplayer functionality!
 
 ## 🚀 Features
 
