@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Online-Quiz-Game/static/css/main.d352ecb2.css",
-    "main.js": "/Online-Quiz-Game/static/js/main.05025c17.js",
+    "main.js": "/Online-Quiz-Game/static/js/main.eebac8ad.js",
     "index.html": "/Online-Quiz-Game/index.html",
     "main.d352ecb2.css.map": "/Online-Quiz-Game/static/css/main.d352ecb2.css.map",
-    "main.05025c17.js.map": "/Online-Quiz-Game/static/js/main.05025c17.js.map"
+    "main.eebac8ad.js.map": "/Online-Quiz-Game/static/js/main.eebac8ad.js.map"
   },
   "entrypoints": [
     "static/css/main.d352ecb2.css",
-    "static/js/main.05025c17.js"
+    "static/js/main.eebac8ad.js"
   ]
 }
