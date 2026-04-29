@@ -2,7 +2,7 @@ import React from "react";
 
 const MEDALS = ["🥇", "🥈", "🥉"];
 
-export default function QuestionResult({ result, leaderboard, question }) {
+export default function QuestionResult({ result, leaderboard, question, isFinalQuestion }) {
   if (!result) return null;
 
   return (
@@ -27,7 +27,9 @@ export default function QuestionResult({ result, leaderboard, question }) {
         </div>
       </div>
 
-      <div className="next-hint">Next question coming up...</div>
+      <div className="next-hint">
+        {isFinalQuestion ? "Game ending..." : "Next question coming up..."}
+      </div>
     </div>
   );
 }

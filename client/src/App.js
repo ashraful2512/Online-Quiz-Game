@@ -66,6 +66,7 @@ function Game() {
                 result={questionResult}
                 leaderboard={leaderboard}
                 question={question}
+                isFinalQuestion={question?.index === question?.total - 1}
               />
             )}
             {phase === "gameover" && (
