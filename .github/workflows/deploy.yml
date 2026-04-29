@@ -17,9 +17,10 @@ jobs:
       with:
         node-version: '18'
         
-    - name: Install dependencies
+    - name: Clear npm cache and install dependencies
       run: |
         cd client
+        npm cache clean --force
         npm install
         
     - name: Build
