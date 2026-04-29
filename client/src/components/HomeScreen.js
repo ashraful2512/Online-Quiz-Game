@@ -11,7 +11,7 @@ export default function HomeScreen({ onCreate, onJoin }) {
 
   useEffect(() => {
     // Fetch available categories
-    fetch("http://localhost:3001/categories")
+    fetch("https://online-quiz-game-uttq.onrender.com/categories")
       .then((res) => res.json())
       .then((data) => {
         setCategories(data);
@@ -19,7 +19,7 @@ export default function HomeScreen({ onCreate, onJoin }) {
       .catch((err) => console.error("Failed to fetch categories:", err));
 
     // Fetch available game modes
-    fetch("http://localhost:3001/gamemodes")
+    fetch("https://online-quiz-game-uttq.onrender.com/gamemodes")
       .then((res) => res.json())
       .then((data) => {
         setGameModes(data);
